@@ -1,0 +1,17 @@
+@font-face {
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../public//assets/Fonts/Roboto-Regular.eot) format("eot");
+  src: url(../public//assets/Fonts/Roboto-Regular.ttf) format("ttf");
+  src: url(../public//assets/Fonts/Roboto-Regular.woff) format("woff");
+  src: url(../public//assets/Fonts/Roboto-Regular.woff2) format("woff2");
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+  font-size: 15px;
+  font-weight: 300;
+}

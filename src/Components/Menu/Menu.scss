@@ -1,0 +1,102 @@
+.submenu {
+  width: 100%;
+  height: 90%;
+  .sub_1 {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #5b5b5b;
+    padding-left: 10px;
+    transition: 300ms linear;
+    text-transform: capitalize;
+    &:hover {
+      background-color: rgba(0, 0, 139, 0.085);
+      color: red;
+      .p_1 {
+        opacity: 1;
+        z-index: 2;
+        .pm{
+          transform: translateX(0);
+          -webkit-transform: translateX(0);
+          -moz-transform: translateX(0);
+          -ms-transform: translateX(0);
+          -o-transform: translateX(0);
+}
+      }
+    }
+    .p_1 {
+      position: absolute;
+      top: 5%;
+      left: 25%;
+      width: 53%;
+      height: 90%;
+      background-color: whitesmoke;
+      transition: all;
+      -webkit-transition: all;
+      -moz-transition: all;
+      -ms-transition: all;
+      -o-transition: all;
+      opacity: 0;
+      z-index: -1;
+      overflow: hidden;
+      .pm{
+        width: 100%;
+        height: 100%;
+        background-color: aqua;
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        transition: 300ms linear;
+        -webkit-transition: 300ms linear;
+        -moz-transition: 300ms linear;
+        -ms-transition: 300ms linear;
+        -o-transition: 300ms linear;
+}
+    }
+  }
+  .sub_2 {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 300;
+    text-decoration: none;
+    color: rgb(57, 118, 233);
+    padding-left: 10px;
+    transition: 300ms linear;
+    text-transform: capitalize;
+    span {
+      display: inline;
+    }
+    &:hover {
+      background-color: rgba(0, 0, 139, 0.085);
+      color: red;
+      .p_2 {
+        opacity: 1;
+        z-index: 2;
+      }
+    }
+    .p_2 {
+      position: absolute;
+      top: 5%;
+      left: 25%;
+      width: 53%;
+      height: 90%;
+      background-color: rgb(59, 3, 212);
+      transition: all;
+      -webkit-transition: all;
+      -moz-transition: all;
+      -ms-transition: all;
+      -o-transition: all;
+      opacity: 0;
+      z-index: -1;
+    }
+  }
+}

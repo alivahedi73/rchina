@@ -1,0 +1,197 @@
+{
+  "Menu": [
+    {
+      "id": 1,
+      "name": "Manufactory & Processing Machinery",
+      "class": false,
+      "submenu": [{ "id": 1, "name": "red" }]
+    },
+    {
+      "id": 2,
+      "name": "consumer electronics",
+      "class": false,
+      "submenu": [{ "id": 1, "name": "green" }]
+    },
+    {
+      "id": 3,
+      "name": "industrial Equipment & components",
+      "class": false,
+      "submenu": [{ "id": 1, "name": "blue" }]
+    },
+    {
+      "id": 4,
+      "name": "Electrical & electronic",
+      "class": false,
+      "submenu": [{ "id": 1, "name": "yellow" }]
+    },
+    {
+      "id": 5,
+      "name": "constraction & decoration",
+      "class": false,
+      "submenu": [{ "id": 1, "name": "pinck" }]
+    },
+    {
+      "id": 6,
+      "name": "light industrial",
+      "class": false,
+      "submenu": [{ "id": 1, "name": "black" }]
+    },
+    {
+      "id": 7,
+      "name": "Auto motorcycle parts",
+      "class": false,
+      "submenu": [{ "id": 1, "name": "gray" }]
+    },
+    {
+      "id": 8,
+      "name": "Apparel & accessories",
+      "class": false,
+      "submenu": [{ "id": 1, "name": "aqua" }]
+    },
+    {
+      "id": 9,
+      "name": "lights",
+      "class": false,
+      "submenu": [{ "id": 1, "name": "purpule" }]
+    },
+    {
+      "id": 10,
+      "name": "sporting good",
+      "class": false,
+      "submenu": [{ "id": 1, "name": "gold" }]
+    },
+    {
+      "id": 11,
+      "name": "transportation",
+      "class": false,
+      "submenu": [{ "id": 1, "name": "white" }]
+    },
+    {
+      "id": 12,
+      "name": "arts",
+      "class": false,
+      "submenu": [{ "id": 1, "name": "whitesmoke" }]
+    },
+    {
+      "id": 13,
+      "name": "Health and medicine",
+      "class": false,
+      "submenu": [{ "id": 1, "name": "#2b2b2b" }]
+    },
+    {
+      "id": 14,
+      "name": "computer products",
+      "class": false,
+      "submenu": [{ "id": 1, "name": "#5b5b5b" }]
+    },
+    {
+      "id": 15,
+      "name": "More Categorize",
+      "class": true,
+      "submenu": [{ "id": 1, "name": "#3b3b3b" }]
+    }
+  ],
+  "slider": [
+    {
+      "id": 1,
+      "href": "#",
+      "src": "../../../public/assets/Images/a1.webp"
+    },
+    {
+      "id": 2,
+      "href": "#",
+      "src": "../../../public/assets/Images/a2.webp"
+    },
+    {
+      "id": 3,
+      "href": "#",
+      "src": "../../../public/assets/Images/a3.webp"
+    },
+    {
+      "id": 4,
+      "href": "#",
+      "src": "../../../public/assets/Images/a4.webp"
+    },
+    {
+      "id": 5,
+      "href": "#",
+      "src": "../../../public/assets/Images/a5.webp"
+    }
+  ],
+  "right": [
+    {
+      "id": 1,
+      "href": "#",
+      "src": "../../../public/assets/Images/w1.webp",
+      "name": "Hydrolic pump",
+      "p": "70.000+Products"
+    },
+    {
+      "id": 2,
+      "href": "#",
+      "src": "../../../public/assets/Images/w2.webp",
+      "name": "coffee table",
+      "p": "50.000+Products"
+    },
+    {
+      "id": 3,
+      "href": "#",
+      "src": "../../../public/assets/Images/w3.webp",
+      "name": "water purifier",
+      "p": "144.000+Products"
+    },
+    {
+      "id": 4,
+      "href": "#",
+      "src": "../../../public/assets/Images/w4.webp",
+      "name": "home furniture",
+      "p": "52.000+Products"
+    },
+    {
+      "id": 5,
+      "href": "#",
+      "src": "../../../public/assets/Images/w5.webp",
+      "name": "mobility scooter",
+      "p": "40.000+Products"
+    }
+  ],
+  "FlexBoxSlider": [
+    {
+      "id": 1,
+      "class": true,
+      "src": "../../../public/assets/Images/smart.png",
+      "pfirst": "SMART EXPO",
+      "psecond": "Reliable China Suppliers, Recommended at World's Famous Trade Shows.",
+      "icon": "<LuMoveRight />",
+      "alt": "this is test!",
+      "href": "#"
+    },
+    {
+      "id": 2,
+      "class": false,
+      "src": "../../../public/assets/Images/s2.webp",
+      "pfirst": "Secured Trading Service",
+      "psecond": "",
+      "icon": "<LuMoveRight />",
+      "alt": "this is test!"
+    },
+    {
+      "id": 3,
+      "class": false,
+      "src": "../../../public/assets/Images/s3.webp",
+      "pfirst": "STAR suplied",
+      "psecond": "",
+      "icon": "<LuMoveRight />",
+      "alt": "this is test!"
+    },
+    {
+      "id": 4,
+      "class": false,
+      "src": "../../../public/assets/Images/s4.webp",
+      "pfirst": "selected supplier",
+      "psecond": "",
+      "icon": "<LuMoveRight />",
+      "alt": "this is test!"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+.main_right {
+  width: 288px;
+  height: 100%;
+  margin-left: 3px;
+  .mr_1 {
+    width: 80%;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  .mr_2 {
+    width: 100%;
+    height: 65px;
+    display: block;
+    text-decoration: none;
+    margin-top: 5px;
+    .main_mr {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      img {
+        width: 70px;
+        height: 61px;
+        object-fit: cover;
+      }
+      .m_mr_2 {
+        width: 60%;
+        height: 100%;
+        &:hover {
+          .mr_3 {
+            color: red;
+          }
+          .mr_4 {
+            color: red;
+          }
+        }
+        .mr_3 {
+          color: #1b1b1b;
+          font-size: 15px;
+          margin-left: 10px;
+          margin-top: 10px;
+          transition: 300ms linear;
+          text-transform: capitalize;
+        }
+        .mr_4 {
+          color: #5b5b5b;
+          font-size: 12px;
+          margin-left: 10px;
+          margin-top: 10px;
+          transition: 300ms linear;
+        }
+      }
+    }
+  }
+  .mr_5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #7b7b7b;
+    margin: 35px 20px 5px;
+  }
+  .req_mr {
+    width: 90%;
+    height: 50px;
+    margin: 10px auto;
+    border-radius: 10px;
+    display: block;
+    overflow: hidden;
+    border: 1px solid red;
+    text-decoration: none;
+    transition: 300ms linear;
+    &:hover {
+      border: none;
+      background-color: red;
+      .req_1 {
+        p {
+          color: whitesmoke;
+        }
+      }
+    }
+    .req_1 {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      .muy {
+        font-size: 20px;
+        margin-top: 10px;
+        transition: 300ms linear;
+      }
+      p {
+        font-size: 16px;
+        color: red;
+        transition: 300ms linear;
+        text-transform: capitalize;
+      }
+    }
+  }
+}
